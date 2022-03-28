@@ -52,7 +52,12 @@ header nav ul li a {
 main {
     padding-top: 100px;
 }
-
+.section {
+    color: #a4a4a4;
+}
+.row {
+    margin-top: 20px;
+}
 /* row 1 */
 .section {
     margin-top: 30px;
@@ -82,26 +87,41 @@ main {
 
 /* row 2 */
 .colhead {
-    /* debug */
-    background-color: #abcfe7;
-    height: 100px;
+    margin-bottom: 10px;
+}
+.colhead h1 {
+    font-size: 35px;
+    color: black;
 }
 .float {
     float: left;
-    /* debug */
-    background-color: #abcfe7;
-    border-bottom: solid 15px #0186fe;
-    border-top: solid 15px #0186fe;
-    height: 300px;
 }
 .colside{
-    width: 15%;
+    width: 20%;
 }
 .colcenter {
-    width: 70%;
-    /* debug */
-    border-left: solid 10px #0186fe;
-    border-right: solid 10px #0186fe;
+    width: calc(60% - 30px);
+    margin: 0 15px;
+}
+.imgcol {
+    height: 300px;
+    width: 100%;
+}
+.imgcol img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.textcol {
+    margin-top: 20px;
+}
+.textcol span {
+    color: black;
+    font-size: 16px;
+}
+.textcol p {
+    margin-top: 10px;
 }
 
 /* regole footer */
