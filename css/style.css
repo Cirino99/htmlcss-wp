@@ -13,6 +13,9 @@
     display: table;
     clear: both;
 }
+img {
+    filter: contrast(75%);
+}
 
 /* regole header */
 header {
@@ -20,7 +23,7 @@ header {
     width: 100%;
 }
 header img {
-    height: 60%;
+    height: 60px;
     width: auto;
     padding-right: 15px;
     border-right: solid 1px #a4a4a4;
@@ -37,18 +40,40 @@ header nav ul li {
 }
 header nav ul li a {
     text-decoration: none;
+    font-size: 16px;
     color: #a4a4a4;
 }
 
 /* regole main */
+
+/* row 1 */
 .section {
-    margin-top: 20px;
+    margin-top: 30px;
 }
-.col{        
-    /* debug */
-    background-color: #e1d67a;
-    height: 400px;
+.col {
+    height: 650px;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
 }
+.col img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+#imgtext {
+    position: absolute;
+    bottom: 70px;
+    left: 50px;
+    color: white;
+    width: calc(50% - 50px);
+}
+#imgtext span {
+    font-size: 40px;
+}
+
+/* row 2 */
 .colhead {
     /* debug */
     background-color: #abcfe7;
