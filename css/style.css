@@ -14,8 +14,16 @@
     display: table;
     clear: both;
 }
-img {
+/* img {
     filter:brightness(80%);
+} */
+.brightness {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 20%;
+    border-radius: 15px;
 }
 
 /* regole header */
@@ -106,6 +114,7 @@ main {
 .imgcol {
     height: 300px;
     width: 100%;
+    position: relative;
 }
 .imgcol img {
     height: 100%;
