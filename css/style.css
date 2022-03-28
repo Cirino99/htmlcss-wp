@@ -24,6 +24,7 @@
     background-color: black;
     opacity: 20%;
     border-radius: 15px;
+    z-index: 10;
 }
 
 /* regole header */
@@ -88,6 +89,7 @@ main {
     left: 50px;
     color: white;
     width: calc(50% - 50px);
+    z-index: 20;
 }
 #imgtext span {
     font-size: 40px;
