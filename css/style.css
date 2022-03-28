@@ -31,7 +31,7 @@ header img {
     height: 50px;
     width: auto;
     padding-right: 15px;
-    border-right: solid 1px #a4a4a4;
+    border-right: solid 1px #ddd;
 }
 header nav {
     margin-top: 20px;
@@ -100,8 +100,8 @@ main {
     width: 20%;
 }
 .colcenter {
-    width: calc(60% - 30px);
-    margin: 0 15px;
+    width: calc(60% - 40px);
+    margin: 0 20px;
 }
 .imgcol {
     height: 300px;
